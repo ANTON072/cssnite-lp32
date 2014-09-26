@@ -1,3 +1,6 @@
 [submodule "scss/normalize.scss"]
 	path = scss/normalize.scss
 	url = git@github.com:ANTON072/normalize.scss.git
+[submodule "scss/bem"]
+	path = scss/bem
+	url = git@github.com:ANTON072/BEM-SCSS-Mixin.git
