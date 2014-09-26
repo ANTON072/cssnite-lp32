@@ -1,0 +1,3 @@
+[submodule "scss/normalize.scss"]
+	path = scss/normalize.scss
+	url = git@github.com:ANTON072/normalize.scss.git
