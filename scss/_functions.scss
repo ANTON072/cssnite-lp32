@@ -1,0 +1,4 @@
+// pxを%に変換
+@function px2per($target, $base){
+  @return $target / $base * 100%;
+}

@@ -1,0 +1,57 @@
+// IEサポート
+$supportIE: true;
+
+// IE7ハック
+@mixin hackIE7 {
+	*:first-child + html & {
+		@content;
+	}
+}
+
+// clearfix
+@mixin clearfix {
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+	@if $supportIE {
+		*zoom: 1;
+	}
+}
+
+// opacity
+@mixin opacity($alpha) {
+	opacity: $alpha;
+	@if $supportIE {
+		-ms-filter: "alpha(opacity=#{alpha * 100})";
+		filter: alpha(opacity=#{$alpha * 100});
+	}
+}
+
+// リンクカラー
+@mixin link-color($normal, $hover){
+	color: $normal;
+	&:hover {
+		color: $hover;
+		text-decoration: none;
+	}
+}
+
+// リンクアイコン
+@mixin linkIcon($color: #333){
+	&:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		right: 15px;
+		width: 10px;
+		height: 10px;
+		margin-top: -7px;
+		border-top: 3px solid $color;
+		border-right: 3px solid $color;
+		transform: rotate(45deg);
+	}
+}
+
+

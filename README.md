@@ -1,7 +1,5 @@
 ## SCSS Mixin
 
-[CSS Nite LP32](http://cssnite.jp/lp/lp32/)の「コピペで使える！変数とmixin！」のセッション中に紹介しているSCSSのMixinです。
-
 ## USAGE
 
 ``@import``で必要なSCSSファイルを読み込みます。
@@ -186,13 +184,3 @@ a:hover, a:active, a:focus {
 * ``line`` : どの状態でも下線あり
 * ``none-to-line`` : :link,:visitedは下線なし、それ以外はあり
 * ``none`` : どの状態でも下線なし
-
-## LICENSE
-
-SCSSファイルにライセンス条項が明記されていない限りすべてパブリック・ドメインとして提供されています。
-
-## 参考
-
-Mixinをつくるにあたって参考にさせていただきました。ありがとうございます。
-
-- <a href="http://www.slideshare.net/kosei27/sass-14212276" >実践Sass 後編</a>
