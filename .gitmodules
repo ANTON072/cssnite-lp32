@@ -4,3 +4,6 @@
 [submodule "scss/bem"]
 	path = scss/bem
 	url = git@github.com:ANTON072/BEM-SCSS-Mixin.git
+[submodule "scss/animate"]
+	path = scss/animate
+	url = git@github.com:geoffgraham/animate.scss.git
