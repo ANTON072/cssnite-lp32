@@ -1,0 +1,46 @@
+/**
+* ■■■■■■■■ Base Settings ■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+*/
+
+html {
+	height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "游ゴシック体","游ゴシック","Yu Gothic","YuGothic","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ","Meiryo",sans-serif;
+}
+
+a {
+
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+dl {
+	margin: 0;
+}
+
+dd {
+	margin: 0;
+}
+
+::selection {
+
+}
